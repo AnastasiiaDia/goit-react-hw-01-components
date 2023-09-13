@@ -26,10 +26,14 @@ export const Table = styled.table`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 350px;
+    // width: 350px;
+  }
+  tr {
+    // display: flex;
 
-    tr {
-      flex: 1;
-    }
+    // justify-content: center;
+  }
+  td {
+    flex: 1;
   }
 `;
