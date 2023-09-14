@@ -1,5 +1,5 @@
 import { Round } from './FriendsListItem.styled';
-import { Friends } from 'components/FriendList/FriendList.styled';
+// import { Friends } from 'components/FriendList/FriendList.styled';
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <>
