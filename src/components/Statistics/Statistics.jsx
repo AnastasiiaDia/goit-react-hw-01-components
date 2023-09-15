@@ -1,5 +1,5 @@
-// import PropTypes from 'prop-types';
-// import css from './Statistics.module.css';
+import PropTypes from 'prop-types';
+
 import { Stat, StatList, StatListItem } from './Statistics.styled';
 export const Statistics = props => {
   return (
@@ -17,4 +17,9 @@ export const Statistics = props => {
       </StatList>
     </Stat>
   );
+};
+StatListItem.propTypes = {
+  id: PropTypes.string,
+  label: PropTypes.string,
+  percentage: PropTypes.number,
 };
