@@ -2,16 +2,13 @@ import styled from '@emotion/styled';
 export const Table = styled.table`
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
 
   width: 600px;
-  border: 2px solid;
   padding: 25px;
-
   margin-left: auto;
   margin-right: auto;
 
+  border: 2px solid;
   border-radius: 20px;
   box-shadow: 10px -8px 0px rgb(253 230 138);
   thead {

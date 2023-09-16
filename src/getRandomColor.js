@@ -3,5 +3,3 @@ export function getRandomColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-
-// export { getRandomColor };

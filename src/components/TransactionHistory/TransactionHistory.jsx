@@ -23,14 +23,3 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-// {
-//   items.map(({ id, type, amount, currency }) => {
-//     return (
-//       <tr key={id}>
-//         <td>
-//           <Transaction type={type} amount={amount} currency={currency} />
-//         </td>
-//       </tr>
-//     );
-//   });
-// }

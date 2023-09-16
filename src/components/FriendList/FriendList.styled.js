@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+
 export const Friends = styled.ul`
   width: 350px;
   border: 2px solid;
@@ -20,12 +21,14 @@ export const Friends = styled.ul`
     display: flex;
     align-items: center;
     padding-left: 20px;
-    /* justify-content: center; */
+  
     gap: 20px;
     width: 200px;
     height: auto;
     
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-/* justify-content: space-between; */
- 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+
+ &: hover{
+  background-color: rgb(253 230 138);
+ }
 `;
